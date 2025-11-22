@@ -46,7 +46,7 @@ const Footer = () => {
         >
           {/* Coluna 1 - Sobre a Empresa */}
           <GridItem>
-            <VStack align="start" spacing={4}>
+            <VStack align="start" gap={4}>
               <Text fontSize="xl" fontWeight="bold" color="blue.300">
                 Fritz Tecnologia
               </Text>
@@ -55,7 +55,7 @@ const Footer = () => {
                 software de ponta para transformar seu negócio e impulsionar seu
                 crescimento digital.
               </Text>
-              <HStack spacing={3}>
+              <HStack gap="{3}">
                 <Link href="#" _hover={{ color: "blue.300" }}>
                   <Icon as={FaFacebook} boxSize={5} />
                 </Link>
@@ -74,11 +74,11 @@ const Footer = () => {
 
           {/* Coluna 2 - Links Rápidos */}
           <GridItem>
-            <VStack align="start" spacing={4}>
+            <VStack align="start" gap={4}>
               <Text fontSize="lg" fontWeight="bold" color="blue.300">
                 Links Rápidos
               </Text>
-              <VStack align="start" spacing={2}>
+              <VStack align="start" gap={2}>
                 <Link
                   href="/sobre"
                   _hover={{ color: "blue.300" }}
@@ -116,11 +116,11 @@ const Footer = () => {
 
           {/* Coluna 3 - Serviços */}
           <GridItem>
-            <VStack align="start" spacing={4}>
+            <VStack align="start" gap={4}>
               <Text fontSize="lg" fontWeight="bold" color="blue.300">
                 Nossos Serviços
               </Text>
-              <VStack align="start" spacing={2}>
+              <VStack align="start" gap={2}>
                 <Text fontSize="sm" color="gray.300">
                   Desenvolvimento Web
                 </Text>
@@ -142,12 +142,12 @@ const Footer = () => {
 
           {/* Coluna 4 - Contato */}
           <GridItem>
-            <VStack align="start" spacing={4}>
+            <VStack align="start" gap={4}>
               <Text fontSize="lg" fontWeight="bold" color="blue.300">
                 Contato
               </Text>
-              <VStack align="start" spacing={3}>
-                <HStack spacing={3}>
+              <VStack align="start" gap={3}>
+                <HStack gap={3}>
                   <Icon as={FaMapMarkerAlt} color="blue.300" boxSize={4} />
                   <Text fontSize="sm" color="gray.300">
                     Rua das Inovações, 123
@@ -155,19 +155,19 @@ const Footer = () => {
                     São Paulo, SP - 01234-567
                   </Text>
                 </HStack>
-                <HStack spacing={3}>
+                <HStack gap={3}>
                   <Icon as={FaPhone} color="blue.300" boxSize={4} />
                   <Text fontSize="sm" color="gray.300">
                     (11) 9999-8888
                   </Text>
                 </HStack>
-                <HStack spacing={3}>
+                <HStack gap={3}>
                   <Icon as={FaEnvelope} color="blue.300" boxSize={4} />
                   <Text fontSize="sm" color="gray.300">
                     contato@fritz.com.br
                   </Text>
                 </HStack>
-                <HStack spacing={3}>
+                <HStack gap={3}>
                   <Icon as={FaClock} color="blue.300" boxSize={4} />
                   <Text fontSize="sm" color="gray.300">
                     Seg - Sex: 9h às 18h
@@ -198,7 +198,7 @@ const Footer = () => {
           </GridItem>
 
           <GridItem>
-            <HStack spacing={6}>
+            <HStack gap={6}>
               <Link
                 href="/politica-privacidade"
                 _hover={{ color: "blue.300" }}
