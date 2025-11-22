@@ -13,7 +13,7 @@ const Navbar = () => {
       right="0"
       w="100%"
       h={NAVBAR_HEIGHT}
-      bg="var(--background)"
+      bg="#000"
       zIndex="overlay"
       display="flex"
       alignItems="center"
