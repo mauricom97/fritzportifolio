@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Solutions from "@/sections/Solutions";
+import About from "@/sections/About";
 import { Box } from "@chakra-ui/react";
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     >
       <Navbar />
       <Solutions />
+      <About />
     </Box>
   );
 }
