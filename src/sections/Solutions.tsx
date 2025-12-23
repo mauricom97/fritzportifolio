@@ -90,7 +90,7 @@ const Solutions = () => {
               </HStack>
             </Card.Body>
             <Card.Footer>
-              <Button>Ir para solução</Button>
+              <Button onClick={() => goToSolution("https://qrcoffee.vercel.app/")}>Ir para solução</Button>
             </Card.Footer>
           </Box>
         </Card.Root>
