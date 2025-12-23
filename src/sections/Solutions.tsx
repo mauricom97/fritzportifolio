@@ -79,7 +79,7 @@ const Solutions = () => {
           />
           <Box>
             <Card.Body>
-              <Card.Title mb="2">QRCoffe</Card.Title>
+              <Card.Title mb="2">QRCoffee</Card.Title>
               <Card.Description>
                 Ferramenta para gerenciamento de pedidos da sua cafeteria e
                 restaurantes.
