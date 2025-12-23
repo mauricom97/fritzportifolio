@@ -41,7 +41,7 @@ const About = () => {
                         <HStack mt="2" gap="3">
                             <Avatar.Root size="sm">
                                 <Avatar.Fallback name="Emily Jones" />
-                                <Avatar.Image src="/perfil-fritz.png" />
+                                <Avatar.Image src="/perfil-praia.jpeg" />
                             </Avatar.Root>
                             <Span fontWeight="medium">Mauricio Nunes da Silva | Engenheiro de Software | CTO</Span>
                         </HStack>
